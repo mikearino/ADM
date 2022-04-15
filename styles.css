@@ -3,6 +3,8 @@
 *::after {
   box-sizing: border-box;
   border: black 2px solid;
+  font-family: 'Roboto',
+  sans-serif;
 }
 
 body,
@@ -25,25 +27,7 @@ ul {
   gap: 15px;
 }
 
-img {
-  max-width: 200px;
-  
-}
-
-button {
-  max-width: 250px;
-}
-h1 {
-  max-width: 200px;
-  font-size: 48px;
-  font-weight: 800;
-  color: #f9faf8;
-}
-p {
-  max-width: 200px;
-}
-
-.logo {
+.header-logo {
   font-size: 24px;
   color: #f9faf8;
 }
@@ -62,7 +46,24 @@ p {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: space-around;
-  height: 300px;
+  height: 400px;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.main-image {
+  max-width: 400px;
+}
+
+.secondary-text{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.information-header-text {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
 }
 
 .main {
@@ -94,3 +95,40 @@ p {
   display: flex;
 }
 
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  min-height: 20vh;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-square {
+  background-color: #3882f6;
+  height: 200px;
+  width: 500px;
+  display: flex;
+}
+
+.button1 {
+  color: white;
+  background-color: #3882f6;
+  padding: 10px 50px;
+  margin: 20px;
+}
+
+.button1, .button2 {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+}
