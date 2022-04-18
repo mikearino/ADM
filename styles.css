@@ -63,6 +63,7 @@ ul {
   max-width: 800px;
 }
 
+
 .main-image {
   max-width: 500px;
   max-height: 400px;
@@ -127,8 +128,21 @@ ul {
   background-color: #e5e7eb;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 70vh;
+  font-size: 36px;
+  font-weight:lighter;
+  font-style: italic;
+  color:#1f2937;
+  padding: 200px;
 }
+
+.quote-name {
+  font-size: 24px;
+  font-style: normal;
+
+}
+
 .contact {
   display: flex;
   min-height: 20vh;
@@ -139,6 +153,7 @@ ul {
 
 .blue-square {
   background-color: #3882f6;
+  color: #e5e7eb;
   height: 200px;
   width: 1000px;
   border-radius: 15px;
@@ -157,6 +172,9 @@ ul {
 .button2 {
   padding: 10px 50px;
   border-radius: 10px;
+  background-color: #3882f6;
+  border: white 3px solid;
+  color: white;
 }
 
 .button1, .button2 {
@@ -168,4 +186,6 @@ ul {
   display: flex;
   justify-content: center;
   background-color: #1f2937;
+  padding: 5vh;
+  color: #e5e7eb;;
 }
