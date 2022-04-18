@@ -30,16 +30,24 @@ ul {
 .header-logo {
   font-size: 24px;
   color: #f9faf8;
+
 }
 
 .header {
   background-color: #1f2937;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.hero-container {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .hero {
-  background-color: #1f2937;
   display: flex;
   justify-content: space-around;
   color: #f9faf8;
@@ -49,10 +57,11 @@ ul {
   height: 400px;
   font-size: 48px;
   font-weight: 900;
+  max-width: 800px;
 }
 
 .main-image {
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .secondary-text{
@@ -75,12 +84,15 @@ ul {
 
 .grid {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .box-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .text-container {
@@ -125,6 +137,7 @@ max-width: 180px;
   background-color: #3882f6;
   height: 200px;
   width: 500px;
+  border-radius: 15%;
   display: flex;
 }
 
@@ -132,7 +145,7 @@ max-width: 180px;
   color: white;
   background-color: #3882f6;
   padding: 10px 50px;
-  margin: 20px;
+  border-radius: 10px;
 }
 
 .button1, .button2 {
