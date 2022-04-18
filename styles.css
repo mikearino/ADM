@@ -70,24 +70,37 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 32px;
+}
+
+.grid {
+  display: flex;
 }
 
 .box-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .text-container {
   display: flex;
   justify-content: center;
+  gap: 100px
+}
+
+.text {
+  display: flex;
+max-width: 180px;
+
 }
 
 .box {
-  border: #3882f6 3px solid;
+  border: #3882f6 6px solid;
   border-radius: 15%;
-  min-height: 100px;
-  min-width: 100px;
-  gap: 15px;
+  min-height: 180px;
+  min-width: 180px;
+  margin: 50px;
   display: flex;
 }
 
