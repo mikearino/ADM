@@ -189,3 +189,9 @@ ul {
   padding: 5vh;
   color: #e5e7eb;;
 }
+
+@media(max-width: 1000px) {
+   .quote-section {
+     padding: 110vh 0
+   }
+}
