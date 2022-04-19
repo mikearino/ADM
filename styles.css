@@ -38,7 +38,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
-  padding: 0 145px;
+  padding: 0 145px 150px 145px;
 }
 
 .hero-container {
@@ -48,6 +48,7 @@ ul {
   flex-wrap: wrap;
   height: 120vh;
   align-content: center;
+  padding: 200px 0 400px 0;
 }
 
 .hero {
@@ -92,6 +93,7 @@ ul {
   justify-content: space-around;
   flex-wrap: wrap;
   padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .box-container {
@@ -118,6 +120,7 @@ ul {
   min-height: 180px;
   min-width: 180px;
   display: flex;
+  margin: 20px;
 }
 
 .text {
@@ -191,7 +194,10 @@ ul {
 }
 
 @media(max-width: 1000px) {
-   .quote-section {
-     padding: 110vh 0
+   .quote-section, .hero-container {
+     padding: 110vh 0;
+   }
+   .hero-container {
+    padding: 200px 0 400px 0;
    }
 }
