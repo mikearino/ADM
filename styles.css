@@ -26,6 +26,7 @@ ul {
   gap: 15px;
 }
 
+
 .header-logo {
   font-size: 24px;
   color: #f9faf8;
@@ -38,7 +39,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
-  padding: 0 145px 150px 145px;
+  padding: 0 145px 200px 145px;
 }
 
 .hero-container {
@@ -68,6 +69,7 @@ ul {
 .main-image {
   max-width: 500px;
   max-height: 400px;
+  padding: 40px;
 }
 
 .secondary-text{
@@ -138,6 +140,10 @@ ul {
   font-style: italic;
   color:#1f2937;
   padding: 200px;
+}
+
+.quote {
+  padding: 40px;
 }
 
 .quote-name {
