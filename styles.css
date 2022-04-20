@@ -39,7 +39,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
-  padding: 0 145px 200px 145px;
+  padding: 20px 145px 170px 145px;
 }
 
 .hero-container {
@@ -47,7 +47,7 @@ ul {
   background-color: #1f2937;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  height: 120vh;
+  max-height: 60vh;
   align-content: center;
   padding: 200px 0 400px 0;
 }
@@ -118,12 +118,22 @@ ul {
 
 .box {
   border: #3882f6 6px solid;
-  border-radius: 15%;
+  border-radius: 15px;
   min-height: 180px;
   min-width: 180px;
   display: flex;
   margin: 20px;
 }
+
+.image {
+  border-radius: 15px;
+  min-height: auto;
+  min-width: 180px;
+}
+
+/* #tire {
+  min-width: 180px
+} */
 
 .text {
   display: flex;
